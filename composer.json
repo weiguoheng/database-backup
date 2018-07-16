@@ -1,0 +1,22 @@
+{
+    "name": "weiguoheng/database-backup",
+    "description": "数据备份",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "weiguoheng",
+            "email": "weiguoheng1119@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "chumper/zipper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
